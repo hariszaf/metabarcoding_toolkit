@@ -1,7 +1,7 @@
 # Setup
 title:               PEMA
 tagline:             'investigating metabarcoding'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         'A place for sharing news as well as thoughts and remarks on how to run metabarcoding analyses using the PEMA containers or other software. Made by <a href="hariszaf.github.io/" target="_blank">Haris Zafeiropoulos</a>.'
 url:                 https://hariszaf.github.io/metabarcoding_toolkit/
 baseurl:             ''
 paginate:            5
@@ -9,9 +9,9 @@ permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Haris Zafeiropoulos
+  url:               hariszaf.github.io/
+  email:             haris-zaf@hcmr.gr
 
 # Gems
 plugins:
