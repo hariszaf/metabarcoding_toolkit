@@ -191,3 +191,6 @@ However, we finally did it!
 Now, we only have to copy the `rRNAClassifier.properties` included in the RDPClassifier directory, to the `midori_training_files` where is the final output of our two steps and we are ready to use the classifier against the new Midori2.
 
 Midori2 has been included on the `v.2.0` of PEMA.
+
+>We expect to have great results using this new Midori2 version, however, an essential computational cost comes with that.
+The time PEMA will now need to implement this step will be increased to a great extent.
