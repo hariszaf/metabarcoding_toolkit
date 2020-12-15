@@ -4,7 +4,8 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This is the PEMA main site for *how to use* issues and further metabarcoding tips and hints!
+  Hey there!
+  This is the PEMA main site for <i>how to use</i> issues and further metabarcoding tips and hints!
 </p>
 
 
