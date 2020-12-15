@@ -3,7 +3,7 @@ title:               PEMA
 tagline:             'investigating metabarcoding'
 description:         'A place for sharing news as well as thoughts and remarks on how to run metabarcoding analyses using the PEMA containers or other software. Made by <a href="hariszaf.github.io/" target="_blank">Haris Zafeiropoulos</a>.'
 url:                 https://hariszaf.github.io/metabarcoding_toolkit/
-baseurl:             ''
+baseurl:             https://hariszaf.github.io/metabarcoding_toolkit/
 paginate:            5
 permalink:           pretty
 
