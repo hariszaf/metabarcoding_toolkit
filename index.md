@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wellcome
+title: Home
 ---
 
 <p class="message">
