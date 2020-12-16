@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Welcome
 ---
+
+# Welcome
 
 <p class="message">
   Hey there! <br>
