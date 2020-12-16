@@ -1,7 +1,7 @@
 # Setup
 title:               PEMA
 tagline:             'investigating metabarcoding'
-description:         'A place for sharing news as well as thoughts and remarks on how to run metabarcoding analyses using the PEMA containers or other software. Made by <a href="hariszaf.github.io/profile" target="_blank">Haris Zafeiropoulos</a>.'
+description:         'A place for sharing news as well as thoughts and remarks on how to run metabarcoding analyses using the PEMA containers or other software. Made by <a href="https://hariszaf.github.io/profile" target="_blank">Haris Zafeiropoulos</a>.'
 url:                 https://hariszaf.github.io
 baseurl:             '/pema_documentation'
 paginate:            5
