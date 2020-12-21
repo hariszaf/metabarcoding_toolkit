@@ -6,7 +6,8 @@ title: Home
 # Welcome
 
 
-***site unde construction!***
+<span style="color:red">***site unde construction!***</span>.
+
 
 
 
