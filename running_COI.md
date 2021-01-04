@@ -1,4 +1,4 @@
 ---
 layout: page
-title: Running PEMA for COI data
+title: Running for COI data
 ---
