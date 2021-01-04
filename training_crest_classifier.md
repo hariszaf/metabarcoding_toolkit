@@ -21,7 +21,7 @@ As an example, we will use a subset of Silva sequences coming from Bacteria genu
 
 
 
-## Step 1 - the one you'll need to do on your own*
+## Step 1 - the one you'll need to do on your own
 
 
 Aim of this step is to end up with two files:
