@@ -29,4 +29,4 @@ Keep metabarcoding!
 The PEMA team
 
 
-![Alt text](public/pema_in_a_nutshell.jpeg)
+![Alt text](public/pema_logo.png)
