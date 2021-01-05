@@ -17,8 +17,6 @@ title: Home
 </p>
 
 
-
-
 You may find PEMA as a [Docker](https://hub.docker.com/r/hariszaf/pema) and as a [Singularity](https://singularity-hub.org/collections/2295) container.
 
 Here is the [PEMA GitHub repository](https://github.com/hariszaf/pema) if you want to have a look on the source code and why not, to [contribute](https://github.com/hariszaf/pema/blob/master/CONTRIBUTING.md) to!
@@ -30,3 +28,5 @@ Keep metabarcoding!
 
 The PEMA team
 
+
+![Alt text](public/pema_in_a_nutshell.jpeg)
