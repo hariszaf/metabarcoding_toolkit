@@ -16,6 +16,9 @@ Once you complete this, you may provide PEMA with its outcome and PEMA will run 
 As an example, we will show you how we handled the [Midori2](http://www.reference-midori.info/download.php#) database to train
 the RDPClassifier.
 
+> You may have a look on how your final input files need to look like over [here](https://github.com/hariszaf/pema/tree/local_ref_db/analysis_directory/custom_ref_db/rdpclassifier_example)
+
+
 ## Step 1 - the one you'll need to do on your own*
 
 Aim of this step is to end up with two files:
