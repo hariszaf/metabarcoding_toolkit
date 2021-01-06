@@ -46,6 +46,6 @@ The PEMA team
 
 | | | | | |
 :--:|:--:|:--:|:--:
-![](public/hcmr.png) |  ![](public/imbbc_logo.png)  | ![](public/lab42open.png)  |  ![](public/hfri.png) | ![](public/gsrt.png)
+![](public/hcmr.png){width="32%"} |  ![](public/imbbc_logo.png)  | ![](public/lab42open.png)  |  ![](public/hfri.png) | ![](public/gsrt.png)
 
 
