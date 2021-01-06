@@ -29,7 +29,7 @@ Keep metabarcoding!
 The PEMA team
 
 <p align="center">
-<img src="public/pema_logo.png" alt="drawing" style="width:200px;"/>
+<img src="public/pema_logo.png" alt="drawing" style="width:300px;"/>
 </p>
 
 <p float="left">
@@ -41,3 +41,9 @@ The PEMA team
   <img src="public/Acronym_Environment_RECONNECT-4_1.jpg" width="120" />
 </p>
 
+
+
+<tr>
+  <td><img src="public/hcmr.png" width="50" />
+  <td><img src="public/imbbc_logo.png" width="150" />
+</tr>
