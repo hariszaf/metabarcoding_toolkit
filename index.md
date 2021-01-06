@@ -35,9 +35,9 @@ The PEMA team
 
 <table><tr>
   <td><a href="https://https://www.hcmr.gr/en/"><img src="public/hcmr.png" alt="Drawing" style="width: 50px;"/> </td>
-  <td><img src="public/imbbc_logo.png" alt="Drawing" style="width: 150px;"/> </td>
-  <td><img src="public/lab42open.png" width="60" />
-  <td><img src="public/hfri.png" width="140" />
-  <td><img src="public/gsrt.png" width="100" />
-  <td><img src="public/Acronym_Environment_RECONNECT-4_1.jpg" width="120" />
-</tr></table>
+
+  <td><a href="http://imbbc.hcmr.gr/"><img src="public/imbbc_logo.png" alt="Drawing" style="width: 150px;"/> </td>
+  <td><a href= "https://http://prego.hcmr.gr/"><img src="public/lab42open.png" width="60" />
+  <td><a href="https://www.elidek.gr/en/homepage/"><img src="public/hfri.png" width="140" />
+  <td><a href="http://www.gsrt.gr/central.aspx?sId=119I428I1089I323I488743"><img src="public/gsrt.png" width="100" />
+  <td><a href="https://reconnect.hcmr.gr/"><img src="public/Acronym_Environment_RECONNECT-4_1.jpg" width="120" />
