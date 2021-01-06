@@ -45,6 +45,7 @@ now they are like this:
 >MIDSEQ1
 ```
 
+>**Anything after the first white space is ignored**, so we do not really mind if any **taxonomy** information is included on the titles or not.
 
 
 ### Building the *taxonomy file*
