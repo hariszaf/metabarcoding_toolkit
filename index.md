@@ -32,19 +32,12 @@ The PEMA team
 <img src="public/pema_logo.png" alt="drawing" style="width:300px;"/>
 </p>
 
-<p float="left">
-  <img src="public/hcmr.png" width="50" />
-  <img src="public/imbbc_logo.png" width="150" /> 
-  <img src="public/lab42open.png" width="60" />
-  <img src="public/hfri.png" width="140" />
-  <img src="public/gsrt.png" width="100" />
-  <img src="public/Acronym_Environment_RECONNECT-4_1.jpg" width="120" />
-</p>
-
-
-
 
 <table><tr>
-<td> <img src="public/hcmr.png" alt="Drawing" style="width: 50px;"/> </td>
-<td> <img src="public/imbbc_logo.png" alt="Drawing" style="width: 150px;"/> </td>
+  <td> <img src="public/hcmr.png" alt="Drawing" style="width: 50px;"/> </td>
+  <td> <img src="public/imbbc_logo.png" alt="Drawing" style="width: 150px;"/> </td>
+  <td><img src="public/lab42open.png" width="60" />
+  <td><img src="public/hfri.png" width="140" />
+  <td><img src="public/gsrt.png" width="100" />
+  <td><img src="public/Acronym_Environment_RECONNECT-4_1.jpg" width="120" />
 </tr></table>
