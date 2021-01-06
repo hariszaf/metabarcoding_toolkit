@@ -34,8 +34,8 @@ The PEMA team
 
 
 <table><tr>
-  <td> <img src="public/hcmr.png" alt="Drawing" style="width: 50px;"/> </td>
-  <td> <img src="public/imbbc_logo.png" alt="Drawing" style="width: 150px;"/> </td>
+  <td><a href="https://https://www.hcmr.gr/en/"><img src="public/hcmr.png" alt="Drawing" style="width: 50px;"/> </td>
+  <td><img src="public/imbbc_logo.png" alt="Drawing" style="width: 150px;"/> </td>
   <td><img src="public/lab42open.png" width="60" />
   <td><img src="public/hfri.png" width="140" />
   <td><img src="public/gsrt.png" width="100" />
