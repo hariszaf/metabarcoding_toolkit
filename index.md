@@ -43,7 +43,4 @@ The PEMA team
 
 
 
-<tr>
-  <td><img src="public/hcmr.png" width="50" />
-  <td><img src="public/imbbc_logo.png" width="150" />
-</tr>
+<img src="public/hcmr.png" width="200"/> <img src="public/hcmr.png" width="300"/>
