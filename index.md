@@ -28,5 +28,16 @@ Keep metabarcoding!
 
 The PEMA team
 
+<p align="center">
+<img src="public/pema_logo.png" alt="drawing" style="width:200px;"/>
+</p>
 
-![Alt text](public/pema_logo.png)
+<p float="left">
+  <img src="public/hcmr.png" width="50" />
+  <img src="public/imbbc_logo.png" width="150" /> 
+  <img src="public/lab42open.png" width="60" />
+  <img src="public/hfri.png" width="140" />
+  <img src="public/gsrt.png" width="100" />
+  <img src="public/Acronym_Environment_RECONNECT-4_1.jpg" width="120" />
+</p>
+
