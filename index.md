@@ -43,4 +43,9 @@ The PEMA team
 
 
 
-<img src="public/hcmr.png" width="200"/> <img src="public/hcmr.png" width="300"/>
+
+| | | | | |
+:--:|:--:|:--:|:--:
+![](public/hcmr.png) |  ![](public/imbbc_logo.png)  | ![](public/lab42open.png)  |  ![](public/hfri.png) | ![](public/gsrt.png)
+
+
