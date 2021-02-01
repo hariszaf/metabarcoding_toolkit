@@ -23,13 +23,6 @@ Here is the [PEMA GitHub repository](https://github.com/hariszaf/pema) if you wa
 > For any running issues you may have, or for any further features you would like to see included on PEMA, you can reach us through the [PEMA Gitter community](https://gitter.im/pema-helpdesk/community#) or at *pema@hcmr.gr* .
 
 
-<p class="message">
-
-  To cite PEMA: <br />
-  Zafeiropoulos H, Viet HQ, Vasileiadou K, Potirakis A, Arvanitidis C, Topalis P, Pavloudi C, Pafilis E. PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes. GigaScience. 2020 Mar;9(3):giaa022.
-  
-</p>
-
 
 Thanks for your interest on PEMA!
 Keep metabarcoding!
@@ -38,6 +31,14 @@ The PEMA team
 
 <p align="center">
 <img src="public/pema_logo.png" alt="drawing" style="width:300px;"/>
+</p>
+
+
+<p class="message">
+
+  To cite PEMA: <br />
+  Zafeiropoulos H, Viet HQ, Vasileiadou K, Potirakis A, Arvanitidis C, Topalis P, Pavloudi C, Pafilis E. PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes. GigaScience. 2020 Mar;9(3):giaa022.
+  
 </p>
 
 
