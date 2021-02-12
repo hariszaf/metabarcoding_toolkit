@@ -30,7 +30,7 @@ in the format required.
 >Unfortunately, there is no way for step 1 to be implemented in a completely automatic way, so it could be part of the PEMA code.
 The user needs to provide PEMA with the aforementioned files, otherwise an error will occur.
 
-:::info
+ <span style="color:green">
 
 Here is how we trained RDPClassifier with Midori 2 reference database. 
 
@@ -39,7 +39,7 @@ This is an **extreme case** so you should not panic with the following commands!
 Most cases will be **considerably easier** to get an appropriate *taxonomy file*!
 
 We chose to use this as an example as a worst case scanerio
-:::
+</span>
 
 
 We downloaded the MIDORI_UNIQ_GB240_CO1_RDP fasta file of Midori2 which includes 1.332.086 sequences coming from 185.617 unique taxonomies.
