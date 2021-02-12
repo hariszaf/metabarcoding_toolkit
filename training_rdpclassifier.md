@@ -127,7 +127,7 @@ root_1;Eukaryota_2759;Streptophyta_35493;Magnoliopsida_3398;Zingiberales_4618;Ma
 ```
 This is a major issue for RDPClassifier and we need to avoid it. As the Midori2 version we are trying to use for training has more 1.332.086 sequences and we had more than 90  taxa names with this issue, we had to develop a script to deal with this issue.
 
-```python
+```python=
 #!/usr/bin/python3.5
 import sys, re
 doubles = [
