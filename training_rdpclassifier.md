@@ -45,16 +45,19 @@ We downloaded the MIDORI_UNIQ_GB240_CO1_RDP fasta file of Midori2 which includes
 ### Building the *sequence file*
 
 To get the `.fasta` file in the required format in terms of training the RDPClassfier, we run:
-```
+
+```bash
 awk '/>.* /{$0 = ">MIDSEQ" ++seq}1' MIDORI_UNIQ_GB240_CO1_RDP.fasta > MIDORI_UNIQ_GB240_CO1_RDP_unique_ids.fasta
 ```
 
 This way we renamed all the sequence titles with an Id of ours. So, the sequnce titles that used to be something like this:
-```
+
+```bash
 >MG559732.1.<1.>690	root_1;Eukaryota_2759;Discosea_555280;Flabellinia_1485085;order_Vannellidae_95227;Vannellidae_95227;Clydonella_218657;Clydonella sawyeri_2201168
 ```
 now they are like this:
-```
+
+```bash
 >MIDSEQ1
 ```
 
@@ -70,18 +73,19 @@ b. “Convergent evolution” is not allowed. For example, the same genus cannot
 
 So first, we may keep the unique ids we made in a separate file:
 
-```
+```bash 
 more MIDORI_UNIQ_GB240_CO1_RDP_unique_ids.fasta | grep ">" | sed 's/>//g' > unique_ids.tsv
 ```
 
 To get only the taxonomies included there, we ran:
 
-```
+```bash
 more MIDORI_UNIQ_GB240_CO1_RDP.fasta | grep ">" | awk -F "\t" '{print $2}' > taxonomies_initial.tsv
 ```
 
 And then, to remove unecessary words from them, such as *class*, *family* etc. that could lead to problems later on, we ran:
-```
+
+```bash
 sed 's/root_1;//g ; s/_[0-9]*//g ; s/order//g ; s/class//g ; s/phylum//g ; s/family//g ; s/ /_/g' taxonomies_initial.tsv > taxonomies_clear.tsv
 ```
 
@@ -89,7 +93,7 @@ sed 's/root_1;//g ; s/_[0-9]*//g ; s/order//g ; s/class//g ; s/phylum//g ; s/fam
 
 A good practice is to count the ";" in each taxonomy
 
-```
+```bash
 awk '{print gsub(/;/,"")}' taxonomies_clear.tsv > count_leves_per_taxonomy.tsv
 ```
 
@@ -97,13 +101,13 @@ On the output file, we see that we get 6 counts in all the taxonomies included! 
 
 Now, we can concatenate the ids with the taxonomies to a single file.
 
-```
+```bash
 paste unique_ids.tsv taxonomies_clear.tsv -d ";" > taxonomy.tsv
 ```
 
 Finally, we need to substitute all the ";" with tabs
 
-```
+```bash
 sed -i 's/;/\t/g' taxonomy_file.tsv
 ```
 
@@ -111,11 +115,14 @@ sed -i 's/;/\t/g' taxonomy_file.tsv
 By now, we should be ok. However, as we found out the hard way, Midori does allow “Convergent evolution”.
 So there are genus names that are part of different taxonomies.
 For example, the genus *Thalia* has two different taxonomies:
-```
+
+```bash
 root_1;Eukaryota_2759;Chordata_7711;Thaliacea_30304;Salpida_30307;Salpidae_34759;Thalia_34760;Thalia longicauda_1408229
 ```
+
 and
-```
+
+```bash
 root_1;Eukaryota_2759;Streptophyta_35493;Magnoliopsida_3398;Zingiberales_4618;Marantaceae_4619;Thalia_96513;Thalia geniculata_96515
 ```
 This is a major issue for RDPClassifier and we need to avoid it. As the Midori2 version we are trying to use for training has more 1.332.086 sequences and we had more than 90  taxa names with this issue, we had to develop a script to deal with this issue.
