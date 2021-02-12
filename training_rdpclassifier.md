@@ -120,7 +120,7 @@ root_1;Eukaryota_2759;Streptophyta_35493;Magnoliopsida_3398;Zingiberales_4618;Ma
 ```
 This is a major issue for RDPClassifier and we need to avoid it. As the Midori2 version we are trying to use for training has more 1.332.086 sequences and we had more than 90  taxa names with this issue, we had to develop a script to deal with this issue.
 
-```
+```python
 #!/usr/bin/python3.5
 import sys, re
 doubles = [
@@ -179,29 +179,26 @@ So, now PEMA can take it from here! ;)
 
 ## Step 2 - running in a PEMA container
 
-:::info
-
-This step is implemented by PEMA so you do not need to do anythin! 
-It's here to present you an overview of the steps needed to train the RDPClassifier. 
-
-If you are interested in that you may move forward on the [how to run step](#howtorun)
-:::
+ <span style="color:green">This step is implemented by PEMA so you do not need to do anything! </span>
+ <span style="color:green">It's here to present you an overview of the steps needed to train the RDPClassifier. </span>
+ <span style="color:green">If you are interested in that you may move forward on the [how to run step](#howtorun)</span>
 
 
 PEMA makes use of the two scripts the [GLBRC Microbiome Team](https://github.com/GLBRC-TeamMicrobiome/python_scripts) has developed to support this task; the ```lineage2taxTrain.py``` and the ```addFullLineage.py```; both are on Python2.
-```
+
+```bash
 ./lineage2taxTrain.py taxonomy_file.tsv > ready4train_taxonomy.txt     
 ```
  this will take some hour!
 
 Meanwhile, PEMA will also run the following
-```
+```bash
 ./addFullLineage.py taxonomy_file.tsv MIDORI_UNIQ_GB240_CO1_RDP_unique_ids.fasta > ready4train_seqs.fasta
 ```
 
 Once both these scripts are done, the actual training step is about to start!
 
-```
+```bash
 java -Xmx10g -jar /usr/local/RDPTools/classifier.jar train -o midori_training_files -s ready4train_seqs.fasta -t ready4train_taxonomy.txt
 ```
 
@@ -215,3 +212,33 @@ Midori2 has been included on the `v.2.0` of PEMA.
 
 >We expect to have great results using this new Midori2 version, however, an essential computational cost comes with that.
 The time PEMA will now need to implement this step will be increased to a great extent.
+
+
+
+## How to run PEMA when you're using a custom db
+
+PEMA as already mentioned, is a container - based software. 
+
+You can think of a container as a box that includes everything you need to run your code on it (you may see more about containers [here]()).
+
+Apparently, when you are about to use your custom database, PEMA somehow needs to add this on the corresponding container. 
+
+To do this you need to get PEMA as a **`sandbox`**. 
+
+So you need to download PEMA like this:
+
+```bash
+singularity build --sandbox pema_sandbox shub://hariszaf/pema:v.2.0.3
+```
+
+Once you have added the corresponding files of your database for the training of the RDPClassifier, you may run:
+
+```bash
+singularity run --writable -B /path_to_your/analysis_directory/:/mnt/analysis pema_sandbox/
+```
+
+The `--writable` parameter allows PEMA to make add the files returned from the training and finally, use them for the taxonomy assignment step. 
+
+
+
+
