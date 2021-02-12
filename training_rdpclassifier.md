@@ -30,6 +30,18 @@ in the format required.
 >Unfortunately, there is no way for step 1 to be implemented in a completely automatic way, so it could be part of the PEMA code.
 The user needs to provide PEMA with the aforementioned files, otherwise an error will occur.
 
+:::info
+
+Here is how we trained RDPClassifier with Midori 2 reference database. 
+
+This is an **extreme case** so you should not panic with the following commands! 
+
+Most cases will be **considerably easier** to get an appropriate *taxonomy file*!
+
+We chose to use this as an example as a worst case scanerio
+:::
+
+
 We downloaded the MIDORI_UNIQ_GB240_CO1_RDP fasta file of Midori2 which includes 1.332.086 sequences coming from 185.617 unique taxonomies.
 
 ### Building the *sequence file*
@@ -161,15 +173,22 @@ for line in taxa_file:
 
 ```
 
-Of course, that is an **extreme case**!
-Most cases will be **considerably easier** to get an appropriate *taxonomy file*!
-We leave this example here though, as a worst case scanerip
 
-So, PEMA can take it from here! ;)
+
+So, now PEMA can take it from here! ;)
 
 \* For this step, you may also check the instructions of [John Quensen](https://john-quensen.com/tutorials/training-the-rdp-classifier/) as well.
 
 ## Step 2 - running in a PEMA container
+
+:::info
+
+This step is implemented by PEMA so you do not need to do anythin! 
+It's here to present you an overview of the steps needed to train the RDPClassifier. 
+
+If you are interested in that you may move forward on the [how to run step](#howtorun)
+:::
+
 
 PEMA makes use of the two scripts the [GLBRC Microbiome Team](https://github.com/GLBRC-TeamMicrobiome/python_scripts) has developed to support this task; the ```lineage2taxTrain.py``` and the ```addFullLineage.py```; both are on Python2.
 ```
