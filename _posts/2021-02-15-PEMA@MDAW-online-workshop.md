@@ -11,4 +11,6 @@ A series of great topics and software will be covered!
 
 [PEMA](http://pema.hcmr.gr) will be there for a full hands-on tutorial! 
 
-Even online, hope to e-meet you all there! :100: :100:
+Even online, hope to e-meet you all there! 
+
+Follow the [PREGO project tweet](https://twitter.com/prego_project/status/1363910788646322184) for more!
