@@ -3,6 +3,31 @@ layout: page
 title: Training the RDPClassifier
 ---
 
+
+> **Attention!**<br/>
+This feature is compatible with `Singularity 3.7.1`! 
+Previous versions of Singularity may not support for this.
+
+
+In case you are using Singularity, to enable this feauture you need to **get** PEMA in another way than discussed before. 
+
+
+```
+singularity build --fix-perms pema_fixperms shub://hariszaf/pema:v.2.0.3
+```
+
+Then, once you prepare your `analysis_directory` as described in the following sections, to **run** PEMA you also need to 
+run an alternative command: 
+
+```
+singularity run --fakeroot --writable -B /home/haris/Documents/coding/local_only/test_beds/pema/analysis_directory:/mnt/analysis pema_fixperms
+```
+
+
+
+
+
+
 We will consider this  task as a *two-step* procedure.
 
 The first one, is the one **you** need do on your own; this is the step of preparing the taxonomy andn the sequence file in the necessary formats.
