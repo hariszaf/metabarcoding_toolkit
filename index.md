@@ -37,7 +37,7 @@ The PEMA team
 <p class="message">
 
   To cite PEMA: <br />
-  Zafeiropoulos H, Viet HQ, Vasileiadou K, Potirakis A, Arvanitidis C, Topalis P, Pavloudi C, Pafilis E. PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes. GigaScience. 2020 Mar;9(3):giaa022.
+  <a href="https://doi.org/10.1093/gigascience/giaa022">Zafeiropoulos H, Viet HQ, Vasileiadou K, Potirakis A, Arvanitidis C, Topalis P, Pavloudi C, Pafilis E. PEMA: a flexible Pipeline for Environmental DNA Metabarcoding Analysis of the 16S/18S ribosomal RNA, ITS, and COI marker genes. GigaScience. 2020 Mar;9(3):giaa022.</a>
   
 </p>
 
