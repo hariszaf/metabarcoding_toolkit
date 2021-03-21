@@ -16,7 +16,9 @@ When you are about to run PEMA for ITS data these are the parameters you need to
 
 > The next parameters are needed for the `cutadat` tool. \n You need to set the primers you used there to allow `cutadapt` to perform
 
-* `forwardITSPrimer`	   `GATGAAGAACGYAGYRAA` \n
+* `forwardITSPrimer`	   `GATGAAGAACGYAGYRAA` 
+
+
   `reverseITSPrimer`	   `CTBTTVCCKCTTCACTCG`
  
 
