@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Running for 16/18S rRNA data
+title: 16/18S analysis
 ---
 
 PEMA supports multiple options for running 16S or/and 18S rRNA data.

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Running for COI data
+title: COI analysis
 ---
 
 
