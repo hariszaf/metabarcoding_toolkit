@@ -12,7 +12,7 @@ To this end, PEMA implements an **extra step** in this case, by making use of th
 
 When you are about to run PEMA for ITS data these are the parameters you need to make sure you have ther right: 
 
-* `gene`	   `gene_16S`
+* `gene`	   `gene_ITS`
 
 > The next parameters are needed for the `cutadat` tool. \n You need to set the primers you used there to allow `cutadapt` to perform
 
