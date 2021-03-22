@@ -28,7 +28,3 @@ you are able to select between the `Swarm` and the `CROP` algorithms.
 We strongly suggest to use the `Swarm` option as it scales better and takes less time. 
 
 
-
-
-
-
