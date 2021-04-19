@@ -10,6 +10,4 @@ A single container might be used to run anything from a small microservice or so
 Inside a container are all the necessary executables, binary code, libraries, and configuration files.
 
 
-`https://www.youtube.com/watch?v=FWpnbGnzk08`
-
-[![IMAGE ALT TEXT](https://www.youtube.com/watch?v=FWpnbGnzk08)](https://www.youtube.com/watch?v=FWpnbGnzk08 "Container Explainer")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FWpnbGnzk08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
