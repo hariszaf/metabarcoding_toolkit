@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Train CREST using any Silva version
+title: Train the CREST classifier using any Silva version
 ---
 
 In this post we present how to train the CREST classifier using any [Silva database](https://www.arb-silva.de/) version 
